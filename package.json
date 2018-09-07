@@ -1,0 +1,28 @@
+{
+  "name": "sta-discord-dice-roller",
+  "version": "1.0.0",
+  "description": "Discord roller for Star Wars Adventure RPG",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkyJedi/STA-Discord-Dice-Roller"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "star treak adventures",
+    "RPG",
+    "dice"
+  ],
+  "author": "SkyJedi",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "jsonfile": "^4.0.0",
+    "lodash": "^4.17.10",
+    "seedrandom": "^2.4.4"
+  }
+}
